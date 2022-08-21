@@ -26,7 +26,7 @@ public:
      * Sets the rotation of the servo in terms of % turned
      * Limited to 180 degrees. If you specify a value greater than 180
      * then this will only turn to 180 degrees
-     * @param[in] percentage Percentage to rotate the servo
+     * @param[in] degrees Target rotation
      */
     void SetRotation(uint degrees);
 
