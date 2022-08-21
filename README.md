@@ -64,6 +64,9 @@ Including this library in your project is simple.
 
 1. Clone the library into your repository. Using submodules is the simplest way to make sure
    all your repository users will have the same library you're using.
+```
+git clone https://github.com/dangarbri/servo-lib
+```
 
 2. Update your `CMakeLists.txt' to point to the library
 ```cmake
