@@ -1,3 +1,4 @@
+include_directories(../include)
 add_library(servo-lib
     servo.cpp
     pwm.cpp
